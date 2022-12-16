@@ -9,6 +9,7 @@ public class ChallengeOne {
     }
 
     public static void miniMaxValue(List<Integer> arr){
+        int max, min;
 
     }
 }
