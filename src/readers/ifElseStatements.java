@@ -22,6 +22,10 @@ public class ifElseStatements {
             if((N<=20)&&(N>=20)){
                 System.out.println("Weird");
             }
+
+            if(N>20){
+                System.out.println("Not Weird");
+            }
         }
     }
 }
