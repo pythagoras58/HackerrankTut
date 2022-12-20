@@ -11,16 +11,16 @@ public class ifElseStatements {
         int N = scanner.nextInt();
         scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
 
-        if((N>1) && (N<100)){
-            if((N/2) != 0){
+        if((N>=1) && (N<=100)){
+            if((N%2) != 0){
                 System.out.println("Weird");
             }
-            if((N/2)==0){
-                if((N<=5) && (N>=5)){
+            if((N%2)==0){
+                if((N<=5) && (N>=2)){
                     System.out.println("Not Weird");
                 }
 
-                if((N<=20)&&(N>=20)){
+                if((N<=20)&&(N>=6)){
                     System.out.println("Weird");
                 }
 
